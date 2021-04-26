@@ -17,4 +17,4 @@ var githubIcon = (({
   }));
 });
 
-module.exports = githubIcon;
+/* module.exports = githubIcon; */
