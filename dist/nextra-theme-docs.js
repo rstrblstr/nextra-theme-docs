@@ -1173,7 +1173,7 @@ const Layout = ({
   const filepathWithName = filepath + filename;
   const titles = React__default.Children.toArray(children).filter(child => titleType.includes(child.props.mdxType));
   const titleEl = titles.find(child => child.props.mdxType === 'h1');
-  const title = meta.title || (titleEl ? innerText(titleEl.props.children) : 'Untitled');
+  const title = meta.title || (titleEl ? innerText(titleEl.props.children) : 'Red Table Talk + AutoGFX');
   const anchors = titles.filter(child => child.props.mdxType === 'h2').map(child => child.props.children);
   React.useEffect(() => {
     if (menu) {
