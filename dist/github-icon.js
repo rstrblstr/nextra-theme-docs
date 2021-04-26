@@ -3,7 +3,7 @@ function _interopDefault (ex) { return (ex && (typeof ex === 'object') && 'defau
 var React = _interopDefault(require('react'));
 
 var githubIcon = (({
-  height = 40
+  height = 0
 }) => {
   return /*#__PURE__*/React.createElement("svg", {
     height: height,
