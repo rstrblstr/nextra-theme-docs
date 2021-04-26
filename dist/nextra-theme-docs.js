@@ -1217,7 +1217,7 @@ const Layout = ({
     directories: flatDirectories
   }) : null), /*#__PURE__*/React__default.createElement("div", {
     className: "mr-2"
-  }), config.darkMode ? /*#__PURE__*/React__default.createElement(ThemeSwitch, null) : null, config.i18n ? /*#__PURE__*/React__default.createElement(LocaleSwitch, {
+  }), config.darkMode ? /*#__PURE__*/React__default.createElement(ThemeSwitch, null) : dark, config.i18n ? /*#__PURE__*/React__default.createElement(LocaleSwitch, {
     options: config.i18n,
     isRTL: isRTL
   }) : null, config.repository ? /*#__PURE__*/React__default.createElement("a", {
